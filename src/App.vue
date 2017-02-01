@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <h1>Test</h1>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
-
+import routes from './router-config'
 export default {
   name: 'app',
-  components: {
-    Hello
+  data () {
+    return {
+      routes
+    }
   }
 }
 </script>
