@@ -1,9 +1,9 @@
 <template>
-  <div class="home">
+  <div class="contact">
 </template>
 <script>
 export default {
-  name: 'Hjem',
+  name: 'Kontakt',
   data () {
     return {
       msg: 'Welcome home'

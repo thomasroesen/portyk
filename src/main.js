@@ -4,14 +4,12 @@ import Vue from 'vue'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 import Router from 'vue-router'
-import VueResource from 'vue-resource'
 
 import routes from './router-config'
 import App from './App'
 
 Vue.use(ElementUI)
 Vue.use(Router)
-Vue.use(VueResource)
 
 const router = new Router({routes, saveScrollPosition: true})
 

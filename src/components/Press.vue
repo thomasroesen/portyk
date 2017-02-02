@@ -1,9 +1,9 @@
 <template>
-  <div class="home">
+  <div class="press">
 </template>
 <script>
 export default {
-  name: 'Hjem',
+  name: 'Presse',
   data () {
     return {
       msg: 'Welcome home'
