@@ -3,7 +3,7 @@
 </template>
 <script>
 export default {
-  name: 'Kontakt',
+  name: 'Contact',
   data () {
     return {
       msg: 'Welcome home'

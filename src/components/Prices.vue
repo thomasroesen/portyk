@@ -1,9 +1,13 @@
 <template>
   <div class="prices">
+    <el-row>
+      <el-col :span=24><h1>Prices</h1></el-col>
+    </el-row>
+  </div>
 </template>
 <script>
 export default {
-  name: 'Priser',
+  name: 'Prices',
   data () {
     return {
       msg: 'Welcome home'
