@@ -6,28 +6,28 @@ import Contact from './components/Contact'
 
 export default [
   {
-    name: 'Hjem',
-    path: '/Home',
+    name: 'Home',
+    path: '/',
     component: Home
   },
   {
-    name: 'Presse',
-    path: '/Press',
+    name: 'Press',
+    path: '/press',
     component: Press
   },
   {
-    name: 'Priser',
-    path: '/Prices',
+    name: 'Prices',
+    path: '/prices',
     component: Prices
   },
   {
-    name: 'Min Bakgrunn',
-    path: '/Background',
+    name: 'Background',
+    path: '/background',
     component: Background
   },
   {
-    name: 'Kontakt Meg',
-    path: '/Contact',
+    name: 'Contact',
+    path: '/contact',
     component: Contact
   }
 ]
