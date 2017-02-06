@@ -1,9 +1,13 @@
 <template>
   <div class="background">
+    <el-row>
+      <el-col :span=24><h1>Background</h1></el-col>
+    </el-row>
+  </div>
 </template>
 <script>
 export default {
-  name: 'Min Bakgrunn',
+  name: 'Background',
   data () {
     return {
       msg: 'Welcome home'
